@@ -1,0 +1,22 @@
+{
+  "name": "chn-char-seq",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "gen-audio": "bun run scripts/gen-audio.ts"
+  },
+  "dependencies": {
+    "@tweakpane/core": "^2.0.5",
+    "tone": "^15.1.22",
+    "tweakpane": "^4.0.5"
+  },
+  "devDependencies": {
+    "msedge-tts": "^2.0.5",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0"
+  }
+}
